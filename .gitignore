@@ -1,13 +1,30 @@
-# History files
-.Rhistory
-.Rapp.history
-
-# Example code in package build process
-*-Ex.R
-
-# RStudio files
-.Rproj.user/
-
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
+*.aux
+*.bbl
+*.blg
+*.cb
+*.cb2
+*.log
+*.dvi
+*.out
+*.tcp
+*.ps
+*.gz
+*.Rhistory
+*.xls
+*.xlsx
+*.csv
+*.rda
+*.Rdata
+*.pyc
+*.DS_Store
+*.Rapp.history
+*.lb
+*.fdb_latexmk
+*.bib.bak
+*.synctex.gz
+*.lb
+*.DS_Store
+*.Rapp.history
+*.toc
+*.snm
+*.nav
