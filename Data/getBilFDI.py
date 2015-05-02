@@ -2,6 +2,7 @@ import urllib2
 import os
 import BeautifulSoup
 import csv
+import time
 
 # Helpful functions
 def openSoup(x):
@@ -31,7 +32,9 @@ for ii in urlText[0]:
 
 # Download excel files to directory
 os.chdir('/Users/janus829/Dropbox/Research/fdi_network/Data/UNCTAD')
-for ii in range(len(urls)):
+base = 'http://unctad.org/'
+for ii in range(len(urls))[1:len(cntries)]:
 	xlsURL = base + urls[ii]
 	xlsName = interPull(urls[ii], '4d3_', '.xls') + '_fdi.xls'
 	file(xlsName, 'wb').write(urllib2.urlopen(xlsURL).read())
+	time.sleep(2) 
