@@ -1,3 +1,7 @@
+# ipython
+.ipynb_checkpoints
+
+# Others
 *.aux
 *.bbl
 *.blg

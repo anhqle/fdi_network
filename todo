@@ -1,0 +1,7 @@
+- Clean both first and second tables
+- Check if outflow and inflow match
+- Create adjagency table
+- Imputation (and assess imputation effectiveness)
+
+Literature:
+- Andrew Kerner (ISQ) What is FDI?
